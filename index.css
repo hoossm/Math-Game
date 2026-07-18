@@ -1,0 +1,129 @@
+@font-face {
+    font-family: marykate;
+    src: url(fonts/FontsFree-Net-Marykate-Regular.ttf);
+}
+
+
+body {
+    margin: 0px;
+    background-color: #1E7DBB;
+    background-image: url(images/background.png);
+    background-position: center;
+    background-size: cover;
+    font-family: marykate;
+    text-align: center;
+}
+
+h1 {
+    margin: 0px;
+    padding: 10px;
+    color: #1E7DBB;
+    font-size: 100px;
+    font-weight: lighter;
+}
+
+button {
+    background-color: #50c4a4;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 35px;
+    font-family: marykate;
+    font-size: 70px;
+}
+
+button:hover {
+    background-color: #e05e1c;
+}
+
+#game-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(images/section.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 90%;
+    height: 600px;
+    max-height: 1000px;
+    max-width: 1330px;
+}
+
+
+#start-btn {
+    margin-top: 120px;
+}
+
+#score {
+    color: #50c4a4;
+    font-size: 30px;
+}
+
+#question {
+    margin: 0px;
+    color: #e05e1c;
+    font-size: 80px;
+    margin-top: 40px;
+}
+
+#answer {
+    margin-top: 60px;
+    font-size: 30px;
+}
+
+#enter-btn {
+    font-size: 50px;
+}
+
+#mark {
+    font-weight: lighter;
+    margin: 0px;
+    padding-bottom: 5px;
+    height: 40px;
+}
+
+#user-input {
+    margin-bottom: 10px;
+    background-color: #fdd05a;
+    border: none;
+    text-align: center;
+    font-size: 70px;
+    width: 170px;
+    height: 90px;
+    font-family: marykate;
+    color: #50c4a4;
+    border-radius: 5px;
+}
+
+#playground {
+    padding-right: 32px;
+    font-size: 60px;
+    color: #1E7DBB;
+}
+
+#timer {
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+
+.correct {
+    color: #50c4a4;
+}
+
+.wrong {
+    color: #e05e1c;
+}
+
+.hidden {
+    display: none;
+}
